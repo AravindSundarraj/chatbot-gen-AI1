@@ -33,3 +33,11 @@ pip install langchainhub
 ```
 pip3 install -r requirements.txt
 ```
+
+Map Reduce
+
+```
+sending each relative chunk to LLM rather sending whole relative chunk to LLM which may well exceed the 
+token limitation.
+from the retrived answer , once again LLM called to get best answer or combined answer.
+```
